@@ -1,23 +1,28 @@
+/* Set the background color of the page */
 body {
-  background pink;
+  background:pink ;
 }
 
+/* Style for top-level headings */
 h1 {
   color: blue;
-  fontsize: 3em; 
+  font-size: 3em;
 }
 
+/* Style for subheadings */
 h2 {
   color: green;
-  font-weight: normal
+  font-weight: normal;
   font-style: italic;
 }
 
+/* Style for completed tasks */
 .completed {
-  font-family: 12px;
+  font-size: 12px;
 }
 
+/* Style for completed tasks within the #tasks container */
 #tasks .completed {
-  backgound: #ccc;
+  background: #ccc;
   text-decoration: underline;
 }
